@@ -12,7 +12,7 @@ namespace ConexaoBD
         static void Main(string[] args)
         {
             
-            SqlConnection conexao = new SqlConnection(@"data source=DESKTOP-O34D68D\SQLEXPRESS; Integrated Security=SSPI; Initial Catalog=ExemploBD");
+            SqlConnection conexao = new SqlConnection(@"data source=; Integrated Security=; Initial Catalog=");
             conexao.Open();
 
             //string strQueryUpdate = "UPDATE usuarios set nome = 'Larissa' WHERE usuarioId = 6";
